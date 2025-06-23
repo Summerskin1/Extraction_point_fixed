@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Program Files/Steam/steamapps/draps1337/garrysmod/garrysmod/addons/sample"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

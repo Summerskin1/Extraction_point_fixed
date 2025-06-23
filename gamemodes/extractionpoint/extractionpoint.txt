@@ -1,0 +1,20 @@
+"ExtractionPoint"
+{
+	"base"		"base"
+	"title"		"Extraction Point"
+	"maps"		"^ep_|^cs_|^de_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"ep_maxrounds"
+			"text"		"Max Rounds"
+			"help"		"The maxiumum number of rounds before a map change"
+			"type"		"numeric"
+			"default"	"8"
+		}
+	}
+
+}
