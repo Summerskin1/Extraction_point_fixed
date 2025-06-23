@@ -430,7 +430,7 @@ function GM:PlayerCanHearPlayersVoice( src, rcv )
 end
 
 function GM:DoPlayerDeath(ply, attacker, dmginfo)
-	if attacker && ply:IsPlayer() then
+	if ply:IsPlayer() and ply ~= attacker and IsValid(attacker) then
 		if ply:Team() == attacker:Team() then
 			ply.Killer = attacker
 			ply.CanPunish = true --Change this to false to disable FF kickmode blah blah.
