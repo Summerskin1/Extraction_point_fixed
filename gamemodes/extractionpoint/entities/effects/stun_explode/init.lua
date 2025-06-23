@@ -106,8 +106,8 @@ function EFFECT:Init( data )
 	
 	
 	self.Emitter:Finish()
-	data:GetEntity():EmitSound("weapons/stunstick/stunstick_fleshhit1.wav", self.StartPosition, 120, 100)
-	data:GetEntity():EmitSound("Stunstick.Impact", self.StartPosition, 120, 100)
+	data:GetEntity():EmitSound("weapons/stunstick/stunstick_fleshhit1.wav", 120, 100)
+	data:GetEntity():EmitSound("Stunstick.Impact", 120, 100)
 end
 
 function EFFECT:Think()
