@@ -94,16 +94,12 @@ function SWEP:Deploy()
 		player_manager.RunClass(self.Owner,"MultiplyMoveSpeed",self.SpeedMult)
 		if CLIENT then
 			self:WeaponInfo()
-			RunConsoleCommand("+voicerecord")
 		end
 	end
     return true
 end
 
 function SWEP:Holster()
-	if CLIENT then
-		RunConsoleCommand("-voicerecord")
-	end
 	return true
 end
 

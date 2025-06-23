@@ -16,7 +16,7 @@ function ENT:Initialize()
 	self.Entity:SetMaterial("models/props_combine/portalball001_sheet")
 	--self:SetMaterial("models/props_lab/Tank_Glass001")
 	self:SetColor(Color(0,120,255,200))
-	self:SetMaterial(self.Glow)
+	self:SetMaterial("sprites/light_glow02_add")
 	
 	self:PhysicsInit( SOLID_VPHYSICS )      -- Make us work with physics,
 	self:SetMoveType( MOVETYPE_VPHYSICS )   -- after all, gmod is a physics
